@@ -1,0 +1,82 @@
+.about {
+  padding: 75px 0;
+  @media (max-width: $breakpoint768){
+    padding: 50px 0;
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    @media (max-width: $breakpoint768){
+      gap: 50px;
+    }
+    @media (max-width: $breakpoint610){
+      flex-wrap: wrap;
+    }
+  }
+
+  &__top {
+    margin-bottom: 45px;
+  }
+
+  &__title {
+   
+  }
+
+  &__item {
+    &:last-child {
+      @media (max-width: $breakpoint610) {
+        margin-left: auto;
+      }
+    }
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $greyColor;
+    max-width: 512px;
+    letter-spacing: 2px;
+    @media (max-width: $breakpoint768){
+      font-size: 15px;
+    }
+  }
+
+  &__img {
+    img {
+      @media (max-width: $breakpoint768){
+        max-width: 270px;
+      }
+      @media (max-width: $breakpoint610){
+        max-width: 100%;
+      }
+    }
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      background-image: url(../img/decor3.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      bottom: -50px;
+      right: -20px;
+      width: 84px;
+      height: 84px;
+    }
+    &:before {
+      position: absolute;
+      content: "";
+      background-image: url(../img/decor3.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 84px;
+      height: 84px;
+      top: -20px;
+      left: -20px;
+    }
+  }
+}

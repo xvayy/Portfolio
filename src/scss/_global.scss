@@ -1,0 +1,96 @@
+// Container
+.container {
+    max-width: ($containerWidth + $containerPadding) + px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 $containerSidePadding + px;
+
+    @media (max-width: $breakpoint1450) {
+        max-width: 1200px;
+    }
+
+    @media (max-width: $breakpoint992) {
+        max-width: 970px;
+    }
+
+    @media (max-width: $breakpoint768) {
+        max-width: 740px;
+    }
+
+    @media (max-width: $breakpoint480) {
+        max-width: none;
+    }
+}
+
+// Body & Locked
+body {
+    font-family: $fontMain;
+    background-color: $bgColor;
+    &.locked {
+        overflow: hidden;
+    }
+    // Dark mode styles
+    &.dark {
+        background: #242424;
+    }
+}
+
+// Animations
+// Fade
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+//Button 
+.btn {
+  // display: inline-flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 8px 16px;
+  color: #fff;
+  border: 1px solid $pinkColor;
+  &:hover {
+    background-color: $pinkColor;
+    transition: .9s all;
+  }
+}
+
+//Title
+.title {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 42px;
+  color: #FFFFFF;
+  @media (max-width: $breakpoint610){
+    font-size: 32px;
+    gap: 15px;
+  }
+  img {
+    @media (max-width: $breakpoint480) {
+      max-width: 50px;
+    }
+  }
+}
+
+//Text 
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $greyColor;
+  letter-spacing: 2px;
+}

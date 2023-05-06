@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuliia Ivaniuk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    <header>
+    <!-- Navbar -->
+    <div class="header fixed">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"> <a href="#">Yuliia</a> </div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#home" class="menu__item-link" data-scroll>Home</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__item-link" data-scroll>About</a></li>
+                        <li class="menu__item"><a href="#works" class="menu__item-link" data-scroll>Works</a></li>
+                        <li class="menu__item"><a href="#skills" class="menu__item-link" data-scroll>Skills</a></li>
+                        <li class="menu__item"><a href="#contacts" class="menu__item-link" data-scroll>Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Main Page -->
+    <main>
+      <section id="home" class="home">
+    <div class="container">
+        <div class="home__wrapper">
+          <div class="home__item item-left">
+            <h1 class="home__title">Hi, i`m <span>Yuliia Ivaniuk</span></h1>
+            <h2 class="home__subtitle">HTML / CSS / JS Developer</h2>
+            <p class="home__text">
+              <span>#</span>I create responsive websites where technology meets creativity
+            </p>
+              <div class="home__social">
+              <a class="home__social-link" href="https://github.com/xvayy" target="_blank"><img src="./img/Github.svg" alt="Github"></a>
+              <!-- <a href="mailto:ivanykjula@gmail.com" target="_blank"><img src="./img/Email.svg" alt="Email"></a> -->
+              <a class="home__social-link" href="https://t.me/yuulla" target="_blank"><img src="./img/Telegram.svg" alt="Telegram"></a>
+              <a class="home__social-link" href="mailto:ivanykjula@gmail.com" target="_blank"><img src="./img/Email.svg" alt="Email"></a>
+            </div>
+            <div class="modal__wrapper">
+              <div class="modal">
+                <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+                <div class="modal__title"><span>Contact form</span> </div>
+                <div class="modal__body">
+                  <!-- <div class="modal__wrapper"> -->
+                    <form action="#" class="modal__form">
+                      <div class="modal__inputs">
+                        <div class="modal__box">
+                          <input type="text" class="modal__input" placeholder="Name">
+                          <input type="email" class="modal__input" placeholder="Email">
+                        </div>
+                        <input type="text" class="modal__input" placeholder="Title">
+                        <textarea class="modal__textarea" name="text" id="text" cols="30" rows="10">Message</textarea>
+                      </div>
+                      <button type="submit" class="btn modal__form-btn">Send</button>
+                    </form>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+            <a href="#contacts" class="home__btn btn">Contact me</a>
+            <!-- <a class="home__btn btn" href="#">Contact me</a> -->
+            
+          </div>
+          <div class="home__item item-right">
+            <img class="home__img" src="./img/home-img.png" alt="Yuliia Ivaniuk">
+          </div>
+        </div>
+    </div>
+</section>
+      <section id="works" class="works">
+    <div class="container">
+        <div class="works__wrapper">
+          <div class="works__top">
+            <div class="title">
+              <h2 class="works__title">projects</h2>
+              <img src="./img/decor.svg" alt="">
+            </div>
+            
+            <a href="https://github.com/xvayy" class="works__top-btn show">View all ~~></a>
+          </div>
+          <div class="works__content">
+            <div class="works__item">
+              <div class="works__img"><img src="./img/kitchen.png" alt=""></div>
+              <div class="works__languages">HTML SCSS JS GULP</div>
+              <div class="works__info">
+                <h3 class="works__name">Yellow kitchen</h3>
+                <p class="works__text">Responsive website of Yellow kitchen restaurant</p>
+                <div class="works__buttons">
+                  <a href="https://xvayy.github.io/Yellow_kitchen/" target="_blank" class="works__btn-view btn">Site vist</a>
+                  <a href="https://github.com/xvayy/Yellow_kitchen" target="_blank" class="works__btn-git btn">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="works__item">
+              <div class="works__img"><img src="./img/travelx.png" alt="travelx"></div>
+              <div class="works__languages">HTML SCSS JS GULP</div>
+              <div class="works__info">
+                <h3 class="works__name">TravelX</h3>
+                <p class="works__text">Responsive travel website where you can select a travel date from the calendar</p>
+                <div class="works__buttons">
+                  <a href="https://xvayy.github.io/TravelX/" target="_blank" class="works__btn-view btn">Site vist</a>
+                  <a href="https://github.com/xvayy/TravelX" target="_blank" class="works__btn-git btn">Github</a>
+                </div>                
+              </div>
+            </div>
+            <div class="works__item">
+              <div class="works__img"><img src="./img/barber.png" alt="Barber Shop"></div>
+              <div class="works__languages">HTML CSS JS</div>
+              <div class="works__info">
+                <h3 class="works__name">Burber Shop</h3>
+                <p class="works__text">Barbershop site with many pages</p>
+                <div class="works__buttons">
+                  <a href="https://xvayy.github.io/BarberShop/" target="_blank" class="works__btn-view btn">Site vist</a>
+                  <a href="https://github.com/xvayy/BarberShop" target="_blank" class="works__btn-git btn">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+      <section id="skills" class="skills">
+    <div class="container">
+        <div class="skills__wrapper">
+          <div class="skills__top">
+            <div class="title">
+              <h2 class="skills__title">skills</h2>
+              <img src="./img/decor.svg" alt="">
+            </div>
+          </div>
+          <div class="skills__bottom">
+            <div class="tabs">
+              <div class="tabs__header">
+                <div class="tabs__header-item active">skills</div>
+                <div class="tabs__header-item active">other</div>
+                <div class="tabs__header-item">tools</div>
+                <!-- <div class="tabs__header-item">languages</div> -->
+              </div>
+              <div class="tabs__content">
+                <div class="tabs__content-item">
+                  <img src="./img/html.svg" alt="">
+                  <img src="./img/css.svg" alt="">
+                  <img src="./img/js.svg" alt="">
+                </div>
+                <div class="tabs__content-item">
+                  <img src="./img/gulp.svg" alt="">
+                  <img src="./img/sass.svg" alt="">
+                  <img src="./img/greensock.png" alt="">
+                </div>
+                <div class="tabs__content-item">
+                  <img src="./img/vsc.svg" alt="">
+                  <!-- <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
+                    <title>Visual Studio Code icon</title>
+                    <path
+                      d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
+                  </svg> -->
+                  <img src="./img/figma.svg" alt="">
+                  <img src="./img/photoshop.svg" alt="">
+                </div>
+                <!-- <div class="tabs__content-item">
+                  <ul class="tabs__content-list">
+                    <li class="tabs__content-icon">English</li>
+                    <li class="tabs__content-icon">Germany</li>
+                    <li class="tabs__content-icon">Ukraine</li>
+                  </ul>
+                </div> -->
+              </div>
+            </div>
+            <div class="skills__bottom-img">
+              <img src="./img/decor4.svg" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+      <section id="about" class="about">
+    <div class="container">
+      <div class="about__top">
+        <div class="title">
+          <h2 class="about__title">about me</h2>
+          <img src="./img/decor.svg" alt="">
+        </div>
+      </div>
+        <div class="about__wrapper">
+          <div class="about__item">
+            <p class="about__text">Hello, I'm Yuliia! <br>
+            <br>
+            I am a self-taught frontend developer, living in Lviv, Ukraine. I can build responsive websites from scratch. <br>
+            <br>
+            I have been doing this for more than a year. I am always eager to learn about the latest technologies and frameworks. I
+            will be happy to work with every client and will do everything possible to make him satisfied.</p>
+
+          </div>
+          <div class="about__item">
+            <div class="about__img"><img src="./img/about1.png" alt=""></div>
+          </div>
+        </div>
+    </div>
+</section>
+      <section id="contacts" class="contacts">
+    <div class="container">
+        <div class="contacts__wrapper">
+          <div class="contacts__top">
+            <div class="title">
+              <h2 class="contacts__title">contacts</h2>
+              <img src="./img/decor.svg" alt="">
+            </div>
+            
+          </div>
+          <div class="contacts__content">
+            <div><p class="contacts__text text">I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+              <a href="#" class="home__btn btn modal__btn">Contact me</a>
+            </div>
+            <div class="contacts__social">
+              <h3 class="contacts__social-subtitle">Find me here</h3>
+              <ul class="contacts__list">
+                <li class="contacts__item"><a href="https://github.com/xvayy" class="contacts__link"><img src="./img/contact1.svg" alt="">github.com/xvayy</a></li>
+                <li class="contacts__item"><a href="mailto:ivanykjula@gmail.com" class="contacts__link"><img src="./img/contact2.svg" alt="">ivanykjula@gmail.com</a></li>
+                <li class="contacts__item"><a href="https://t.me/yuulla" class="contacts__link"><img src="./img/contact3.svg" alt="">t.me/yuulla</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- Footer -->
+    
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
