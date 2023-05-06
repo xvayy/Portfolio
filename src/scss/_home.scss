@@ -95,11 +95,16 @@
     flex-wrap: wrap;
     gap: 25px;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
 
   &__social-link {
     position: relative;
+    img {
+      @media (max-width: $breakpoint480){
+        max-width: 40px;
+      }
+    }
     &:after {
       position: absolute;
       content: '';
@@ -126,6 +131,9 @@
   &__img {
     @media (max-width: $breakpoint992){
       max-width: 100%;
+    }
+    @media (max-width: $breakpoint480){
+      margin-top: 15px;
     }
   }
 }

@@ -44,6 +44,7 @@
       font-size: 14px;
     }
     &:hover {
+      transition: .5s all;
       color: $pinkColor;
     }
   }

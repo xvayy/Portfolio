@@ -1,4 +1,17 @@
-// Footer
-footer {
-    display: block;
+.footer {
+  border-top: 1px solid $greyColor;
+  &__wrapper {
+    padding: 20px;
+  }
+
+  &__copy {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: $greyColor;
+    span {
+      color: $pinkColor;
+    }
+  }
 }

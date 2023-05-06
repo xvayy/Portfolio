@@ -93,13 +93,17 @@
     }
 
     &-item {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px 15px;
+      justify-content: center;
       img {
         max-width: 200px;
         @media (max-width: $breakpoint768){
           max-width: 150px;
         }
         @media (max-width: $breakpoint480){
-          max-width: 90px;
+          max-width: 100px;
         }
       }
     }
