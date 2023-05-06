@@ -844,6 +844,7 @@ body.dark {
   font-weight: 500;
   letter-spacing: 2px;
   color: #ABB2BF;
+  line-height: 20px;
 }
 
 .footer__copy span {
